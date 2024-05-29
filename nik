@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Questions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Multiple Choice Questions</h1>
+
+<form action="submit_answers.php" method="post">
+    <fieldset>
+        <legend>Question 1:</legend>
+        <p>What is the capital of France?</p>
+        <label>
+            <input type="radio" name="q1" value="a"> a) Berlin
+        </label>
+        <label>
+            <input type="radio" name="q1" value="b"> b) London
+        </label>
+        <label>
+            <input type="radio" name="q1" value="c"> c) Paris
+        </label>
+        <label>
+            <input type="radio" name="q1" value="d"> d) Madrid
+        </label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Question 2:</legend>
+        <p>What is the largest planet in our solar system?</p>
+        <label>
+            <input type="radio" name="q2" value="a"> a) Venus
+        </label>
+        <label>
+            <input type="radio" name="q2" value="b"> b) Mars
+        </label>
+        <label>
+            <input type="radio" name="q2" value="c"> c) Jupiter
+        </label>
+        <label>
+            <input type="radio" name="q2" value="d"> d) Saturn
+        </label>
+    </fieldset>
+
+    <!-- Add more questions as needed -->
+
+    <input type="submit" value="Submit Answers">
+</form>
+
+</body>
+</html>
